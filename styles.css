@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.name-logo-contaier {
+  width: 100%;
+  background-color: rgb(109, 97, 175);
+  height: 150px;
+  padding-top: 20px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.name {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  text-align: middle;
+  line-height: 10px;
+  color: white;
+}
+
+.name h1 {
+  padding-top: 0;
+}
+
+.details-container {
+  float: right;
+  color: white;
+  width: 180px;
+  margin-right: 20px;
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+i {
+  margin-right: 10px;
+  font-size: 10px;
+  color: white;
+}
+
+.details-container p {
+  display: inline;
+}
+
+.vertical-container {
+  width: 100%;
+}
+
+.vertical-container-1 {
+  float: left;
+  width: 30%;
+  height: 1000px;
+  background-color: rgb(235, 235, 235);
+  margin: 0;
+}
+
+.vertical-container-2 {
+  height: 1000px;
+  margin-left: 30%;
+  margin-bottom: 0;
+  border: 1px solid white;
+
+}
+
+footer p {
+  margin: auto;
+  color: white;
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.circle-briefcase {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(109, 97, 175);
+  text-align: center;
+}
+
+.circle-briefcase i {
+  font-size: 12px;
+  padding-left: 8.5px;
+}
+
+.profile-info {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.profile-info-title > * {
+  display: inline-block;
+}
+
+.profile-info-title h4 {
+  margin-left: 10px;
+}
+
+.profile-info p {
+  font-size: 15px;
+  margin-top: 0;
+  width: 70%;
+}
+
+.interests-title > * {
+  display: inline-block;
+}
+
+.interests-title {
+  margin-bottom: 10px;
+}
+
+.interests {
+  margin-left: 40px;
+}
+
+.interests-title h4 {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.interests-icons > * {
+  display: inline-block;
+}
+
+.interests-icons i {
+  font-size: 18px;
+  color: rgb(109, 97, 175);
+  padding-left: 10px;
+  padding-top: 10px;
+  vertical-align: middle;
+ 
+}
+
+.interest-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 5px solid rgb(109, 97, 175);
+  text-align: center;
+  margin: auto;
+
+}
+
+.category {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.reference-title > *{
+  display: inline-block;
+}
+
+.reference-title h4 {
+  margin-left: 10px;
+}
+
+footer {
+  background-color: rgb(109, 97, 175);
+  margin-bottom: 0;
+  clear: both;
+  position: relative;
+  height: 50px;
+  margin-top: -200px;
+}
+
+/* timeline */
+
+.timeline {
+  position: relative;
+  padding: 10px 10px 10px 50px;
+  max-width: 400px;
+}
+
+.timeline::before {
+  content: '';
+  width: 1px;
+  background-color: rgb(175, 175, 175);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+}
+
+div.event {
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+div.event::after {
+  content: '';
+  background: rgb(173, 173, 173);
+  border: 4px solid rgb(180, 180, 180);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: -45px;
+}
+
+.text {
+  font-size: 13px;
+}
+
+.company {
+  font-size: 15px;
+  color: rgb(109, 97, 175);
+  text-decoration: none;
+}
+
+.company:hover {
+  font-weight: bold;
+}
+
+.company:active {
+  color:purple;
+}
+
+.awards {
+  margin-top: 20px;
+}
+
+.awards p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.awards p:hover {
+  color: purple;
+}
+
+.awards-title > *{
+  display: inline-block;
+}
+
+.awards-title h4 {
+  margin-left: 10px;
+}
+
+
+.portfolio-title > * {
+  display: inline-block;
+}
+
+
+.portfolio-title h4 {
+  margin-left: 10px;
+}
+
+.portfolio {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.box {
+  width: 800px;
+  height: 280px;
+  margin-left: 60px;
+  text-align: center;
+}
+
+.box > * {
+  display:inline-block;
+}
+
+.small-box {
+  background-color: rgb(211, 211, 211);
+  height :180px;
+  width: 250px;
+  /* border: 1px solid black; */
+  margin-left: 20px;
+
+
+}
+
+.smaller-box {
+  width: 250px;
+  height: 80px;
+  /* border: 1px solid black; */
+  margin-left: 20px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02), 
+  0 2px 4px rgba(0,0,0,0.02), 
+  0 4px 8px rgba(0,0,0,0.02), 
+  0 8px 16px rgba(0,0,0,0.02),
+  0 16px 32px rgba(0,0,0,0.02), 
+  0 32px 64px rgba(0,0,0,0.02);
+ 
+
+}
+
+.smaller-box:hover {
+  background-color:rgba(171, 126, 201, 0.295);
+}
+
+.smaller-box p {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 17px;
+}
