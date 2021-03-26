@@ -76,8 +76,9 @@ i {
 footer p {
   margin: auto;
   color: white;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-left: 60px;
+  font-size: 15px;
 }
 
 .circle-briefcase {
@@ -302,6 +303,7 @@ div.event::after {
 
 .smaller-box:hover {
   background-color:rgba(171, 126, 201, 0.295);
+  cursor: pointer;
 }
 
 .smaller-box p {
